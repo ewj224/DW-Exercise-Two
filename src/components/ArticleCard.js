@@ -2,6 +2,7 @@ import React from "react";
 
 function ArticleCard({blurb, date, imageAlt, imageSrc, title}){
     //make sure to go over link...
+    console.log(imageSrc);
     return(
         <div className="articleCard">
             <div className="articleCard--image">

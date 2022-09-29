@@ -12,7 +12,6 @@ h1{
 h2{
     font-size: 30px;
     margin-bottom: 0;
-    margin-left: 22.5px;
     margin-top: 10px;
     position: relative;
 }
@@ -35,19 +34,19 @@ h2{
 
 .articleCard--text{
     flex-basis: 100%;
+    margin-left: 90px;
 }
 
 .blurb{
     font-size: 14px;
     margin-top: 15px;
-    margin-left: 22.5px;
     position: relative;
 }
 
 .date{
     font-size: 12.5px;
     margin-top: 5px;
-    margin-left: 30px;
+    margin-left: 7.5px;
     position: relative;
     
 }
@@ -55,13 +54,13 @@ h2{
 .articleCard--image{
     display: flex;
     background-color: grey;
-    height: auto;
+    height: 225px;
+    margin: 12.5px;
     max-width: 300px;
     width:100%;
 }
 
 .link{
-    margin-left: 22.5px;
     margin-top: 10px;
     margin-bottom: 30px;
     position: relative
