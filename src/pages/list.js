@@ -3,9 +3,13 @@ import React from "react";
 
 function List(){
     return (
-        <div>
+        <main className="pageWrapper">
             <h1>Articles List</h1>
-        </div>
+            <ArticleCard imageAlt="hi" imageSrc="hi"/>
+            <ArticleCard />
+            <ArticleCard />
+            //ask professor about this being not defined?
+        </main>
     )
 }
 
