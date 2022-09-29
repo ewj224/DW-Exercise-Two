@@ -8,18 +8,61 @@ h1{
     font-size: 64px;
 }
 
-.articleCard {
 
+h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-left: 22.5px;
+    margin-top: 10px;
+    position: relative;
 }
 
-.articleCard-image{
+.articleCard {
+    margin: 45px 0px;
+    border: 1.25px solid black;
+    display: flex;
+}
 
+
+.articleCard-image{
+    display: flex;
+    flex-basis: 30%;
+}
+
+.articleCard-image img{
+    /* ??? */
 }
 
 .articleCard--text{
-
+    flex-basis: 100%;
 }
 
-.articleCard--h1{
+.blurb{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 22.5px;
+    position: relative;
+}
 
+.date{
+    font-size: 12.5px;
+    margin-top: 5px;
+    margin-left: 30px;
+    position: relative;
+    
+}
+
+.articleCard--image{
+    display: flex;
+    background-color: grey;
+    height: auto;
+    max-width: 300px;
+    width:100%;
+}
+
+.link{
+    margin-left: 22.5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative
 }

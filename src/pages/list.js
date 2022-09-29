@@ -1,14 +1,31 @@
 import React from "react";
 //needs to be done every time
+import ArticleCard from "../components/ArticleCard";
 
 function List(){
     return (
         <main className="pageWrapper">
             <h1>Articles List</h1>
-            <ArticleCard imageAlt="hi" imageSrc="hi"/>
-            <ArticleCard />
-            <ArticleCard />
-            //ask professor about this being not defined?
+            <ArticleCard 
+            blurb="words words words"
+            date="date"
+            imageAlt=""
+            imageSrc="hi again"
+            title="Article Title"
+            />
+            <ArticleCard 
+            blurb="words words words"
+            date="date"
+            imageAlt=""
+            imageSrc="hi again"
+            title="Article Title"/>
+            <ArticleCard 
+            blurb="words words words"
+            date="date"
+            imageAlt=""
+            imageSrc="hi again"
+            title="Article Title"
+            />
         </main>
     )
 }
