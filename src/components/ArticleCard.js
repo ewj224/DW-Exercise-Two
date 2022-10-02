@@ -1,7 +1,12 @@
-import React from "react";
+import React, {useMemo} from "react";
 
-function ArticleCard({blurb, date, imageAlt, imageSrc, title}){
-    //make sure to go over link...
+function ArticleCard({blurb, date, id, imageAlt, imageSrc, title}){
+    const articleDate = useMemo(()=>{
+        if (!date) return '';
+        const parsedDate = new Date(date)
+        return parsedDate.toDateString();
+    }, [date]);
+    
     console.log(imageSrc);
     return(
         <div className="articleCard">
@@ -10,10 +15,10 @@ function ArticleCard({blurb, date, imageAlt, imageSrc, title}){
             </div>
             <div className="articleCard--text">
                 <h2>{title}</h2>
-                <p className="date">{date}</p>
+                <p className="date">{articleDate}</p>
                 <p className="blurb">{blurb}</p>
                 <p className="link">
-                    <a href="/article/${id}">Read More</a>
+                    <a href={`/article/${id}`}>Read More</a>
                 </p>
 
             </div>
