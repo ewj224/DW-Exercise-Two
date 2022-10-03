@@ -1,18 +1,14 @@
-.article--header--wrapper > h1 {
-    display: flex;
-    position: relative;
-    margin: 0 auto 0 0;
-    max-width: 1200px;
-    align-items: center;
-    padding: 0 300px;
-    width: 100%;
+/* Article portion of css  */
+.article--header{
+    padding: 60px 25px;
 }
 
-.article--header--wrapper > p{
-    padding-left:300px;
+.article--header--wrapper, .article--content{
+    margin: 0 auto;
+    max-width: 640px;
 }
 
-
+/* ArticleCard portion of css */
 
 .pageWrapper {
     margin: 0 auto;
