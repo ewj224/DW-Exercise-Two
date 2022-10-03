@@ -30,7 +30,7 @@ function Article(){
             >
                 <div className="article--header--wrapper">
                     <h1>{articleData.title}</h1>
-                    <p>{date}</p>
+                    <p className="articleDate">{date}</p>
                     <p className="blurb">{articleData.blurb}</p>
                 </div>
             </header>
